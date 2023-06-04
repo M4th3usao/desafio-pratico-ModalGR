@@ -16,4 +16,4 @@ main :: IO ()
 main = do
   let phrase = "Ana Maria da Silva Coração"
   let count =   isLowercaseA phrase
-  putStrLn $ "O número de letras 'a' são: " ++ show count
+  putStrLn $ "Quantidade de letras 'a' minúsculas: " ++ show count
